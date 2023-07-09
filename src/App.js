@@ -2,6 +2,7 @@
 import './App.css';
 import freeCodeCampLogo from "../src/Imagenes/freecodecamp-logo.png"
 import Boton from './Componentes/boton';
+import Contador from './Componentes/contador';
 
 function App() {
 
@@ -19,7 +20,7 @@ const reiniciarContador = () => {
   return (
     <div className="App">
 
-      <div className="freecodecamp-logo.contenedor">
+      <div className="freecodecamp-logo-contenedor">
         <img 
         className='freecodecamp-logo' 
         src={freeCodeCampLogo}
@@ -28,6 +29,8 @@ const reiniciarContador = () => {
         />
       </div >
       <div className="contenedor-principal">
+
+        <Contador numClicks="5" />
 
       <Boton
       
