@@ -7,7 +7,7 @@ function Boton ({texto, esBotonDeCLick, manejarClick}) {
     return (
      
        <button 
-       className={esBotonDeCLick ? "boton-click" : "boton-reiniciar"}
+       className={esBotonDeCLick ? "boton-reiniciar" : "boton-click"}
        
        onClick={manejarClick}>
         
